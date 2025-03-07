@@ -1,0 +1,3 @@
+CLIENT_ID = "fs2bjLSqzz7xhLf6Db3O0g"
+CLIENT_SECRET = "d37lQ3XyiIQBqVhYx1hlKld0p3SbAQ"
+USER_AGENT = "ConvoFlowAI"

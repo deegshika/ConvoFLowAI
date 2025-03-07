@@ -1,0 +1,669 @@
+Post Title,Comment
+[D] Simple Questions Thread,"Hi. →**Training Set** to use for a CNN to process handwritten images← please...
+
+I just took my first Machine Learning course and want to apply it to a professional Project. I have check-in data of scanned spreadsheets for every month going back 2 years. I want to convert this to TRUE/FALSE data to use it in the larger data project on member attendance. My last lesson in my class used CNNs to analyze basic images. I have the data I want to analyze, however I don't have a training set.
+
+**Questions**
+
+Is it possible to get access to a training set to build this model?
+
+What other steps would be included to carry out this task?
+
+Is there an easier way to do this? (Note; these forms contain sensitive information that cannot be posted in popular AI services).
+
+**Thanks in advance for any insight.**"
+[D] Simple Questions Thread,"I have this thing for work where I use multiple features to predict energy consumption/production. The model (lgbm) is using some new features from devices that were not previously used before, I have \~50 features, including lags and rolling averages. I do one day ahead and two day ahead predictions. The problem I have is that sometimes the next day prediction looks quite similar to the previous day prediction, for example if the real data shows some variation from the previous day, the prediction ""lags"" a bit and still shows a curve thatis very similar to the previous day. I believe the solution to this problem is to make the features that depend on the previous day less important (fewer lags and rolling averages), and/or add more features that depend on other times, such as type day prediction, or weather dependencies. What do you think?
+
+Second issue, the model doesn't quite well predict sharp drops or peaks in consumption/production, rather smoothes things over a bit in some cases. I suppose this is underfitting?"
+[D] Simple Questions Thread,"I recently came across the Apziva AI Residency Program, which claims to offer hands-on AI/ML training, real-world projects, and mentorship from industry experts. Their website also mentions high employment rates for graduates.
+
+However, a few things have raised concerns for me:
+	•	I received an “interview” invite from a recruiter just one day after applying. This seems very fast, and I couldn’t find any information about the recruiter online.
+	•	The program requires a paid membership, which is unusual for a residency or fellowship.
+	•	I couldn’t find many independent reviews outside of their official website.
+
+I’d like to hear from anyone who has firsthand experience with this program:
+	•	How credible is it?
+	•	Is the training actually useful for landing AI/ML jobs?
+	•	Are the mentors and projects as high quality as advertised?
+	•	Is it worth the cost, or are there better alternatives?
+
+Would really appreciate any honest feedback from past participants or those familiar with the program.
+
+Thanks in advance!"
+[D] Simple Questions Thread,"How to start Machine Learning, deep learning gen ai nlp contests?
+
+I've taken the courses, read a few books, done projects but i just don't know how to get started with a contest be it kaggle or anything"
+[D] Simple Questions Thread,"Great idea to consolidate questions here! It really helps everyone get quick answers without sifting through multiple threads. For those new to the field, don’t hesitate to ask about model architectures, hyperparameter tuning, or data preprocessing methods. There's no such thing as a dumb question—everyone starts somewhere, and the community is here to help. Also, if you get a chance, share what you've been working on or any interesting challenges you've faced in your projects! Let's keep this a collaborative space."
+[D] Simple Questions Thread,"I just learned about autoencoder networks. I implemented a basic one(emnist) to understand it better. I choose BCE as a loss function, because it sort of undoes the non-linearity(sigmoid) or squashing at output layer hence better for learning, but I have also implemented MSE loss function and getting same results (on some samples even better). I thought BCE would give better results. I want to understand whats happening here why MSE?"
+[D] Simple Questions Thread,"I would always consider adding more features that could be predictive. Perhaps you can also consider encoding features like time of day with sin/cos transforms to introduce some notion of periodicity to your model.
+
+Aside from this, have you considered training a time series model instead? Of course this depends on your specific use case (i.e. how much data you have and how complex it is). I imagine that this would better model sharp transition dynamics that you are hoping to see."
+[D] Simple Questions Thread,I think you just have to take part and see how it goes.
+[D] Monthly Who's Hiring and Who wants to be Hired?,"Want to be Hired: India, Salary Expectation:0, Remote,"
+[D] Monthly Who's Hiring and Who wants to be Hired?,"Hiring: Department of Statistic, University of Oxford, UK. 
+
+2 positions: Research Engineer (grade 7) and Research Fellow (grade 8), on-site, Contract (30 months max)
+
+Salary: £40,855-46,913 (grade 7), £48,235-57,255 (grade 8). 
+
+Project is on Uncertainty quantification for LLMs. 
+
+More details: [https://docs.google.com/document/d/1mIj0HBX8YdKNIFlU6flgA6VnwJn4mm-VxpzXADi4FvU/edit?usp=sharing](https://docs.google.com/document/d/1mIj0HBX8YdKNIFlU6flgA6VnwJn4mm-VxpzXADi4FvU/edit?usp=sharing)"
+[D] Monthly Who's Hiring and Who wants to be Hired?,"This is a great resource for anyone in the ML space looking to connect and find opportunities! Whether you're a data scientist, machine learning engineer, or coming from a related field, it's crucial to keep your skills sharp and your network active. 
+
+If you’re hiring or looking to get hired, it might be helpful to include specifics about the tech stack you’re using or any particular models you’re focused on. Whether it’s deep learning frameworks like TensorFlow or PyTorch, or perhaps some experience with … reinforcement learning or NLP, those details can really help match people to the right roles. 
+
+Just remember to keep it clear and concise; hiring managers are often sifting through a large volume of applications, so make your skills stand out! Good luck to everyone in the hunt!"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,Pretty neat
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Thank you for this FFT method, I like the idea of implementing a true signal processing method to signal processing problems like image processing. Will try it out"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Umm compare it with standard convolution 2d, and depthwise separable convolution?"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"How is this different from SSMs?
+
+Edit: Not an ML guy so new architectures that use signal processing all seem like state space models to me"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,I actually played around with a similar idea earlier this year but using Wavelet Transforms instead. I got some interesting results but didn't bother to scale it since it was a side project - major props to the author for advancing this line of research.
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Could you share some information about how you did your training / evaluations? Forgive me for being skeptical, but as someone who has recently trained ViTs on ImageNet, the results seem a bit unbelievable.   
+Your github code seems to indicate that you used Adam with default betas and a constant lr of 7e-4, and a batch size of 128 for 300 epochs on a single GPU, with minimal data augmentation, yet surpassed the original ViT in accuracy? And not only that, but you trained B,L, and H model scales. Is that correct? Also, how long did the training of each take?"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"This seems very similar to [Hyena](https://arxiv.org/abs/2302.10866), used recently in the DNA LLM [Evo](https://arcinstitute.org/manuscripts/Evo2-ML)."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Hi, nice work! Two comments going through it:
+
+1) From your code it appears you do post-normalization on the attention block whereas you do pre-normalization on the MLP block. Effectively, the second normalization step seems redundant then. What's the design choice behind this? Transformers typically apply either pre- or post-normalization on their attention and mlp block.
+2) I find it hard to see how this work is different from applying a Conv1d as attention module, but in the frequency domain. As a reviewer, I'd want to see a comparison here. I'd guess it's only the computational gains in that case, but I think that only holds for sequences after a certain length (which I think should also be demonstrated)"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"I am sceptical. There is only very weak evidence for this method in the publication. Other methods like s4 or s5 that also leverage the fft to perform convolution already perform much better on the LRA benchmark that the author tested the model on.
+
+See: [https://arxiv.org/pdf/2208.04933](https://arxiv.org/pdf/2208.04933)
+
+Would be interesting to see the performance on the LAMBADA benchmark for language modeling though."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Only looking at the preprint, I am wondering why you would increase the dimension of the global context vector c = X.mean(0) with shape (1, d) up again to shape (n, d) with MLP(c). This seems quite odd to me as there is no local information in c and blowing it up again to the sequence length should not add anything. Can you justify this?"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,How’s it different than SGConv? https://arxiv.org/abs/2210.09298
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Excellent work, very interesting!
+
+I wonder if we could apply it to the processing of time-dependent radar data, such as micro-doppler spectrograms, to enable better management of long-term dependencies.
+
+Thank you very much."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"how is it compared to the continuous kernel convolutions? I see that paper from iclr 2023 has better scores on long range arena benchmark
+
+https://arxiv.org/pdf/2301.10540"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"For sufficiently short operators in space, (which are smooth in frequency domain), a convolution will be mathematically equivalent and faster than an FFT. However, once the filter size gets large, FFTs are going to win due to the O(nlogn) cost. 
+
+I'll note that FFTs are only directly equivalent to depthwise separable convolutions, not the 'standard' ConvNet that is really a matrix multiply at every pixel.
+
+You also need to worry about wrap around artifacts unless you're padding everything by a factor of two and/or tapering amplitudes at the edges. You also need your spatial dimensions to align with friendly FFT sizes (or pad, again). Lots of minor details involved."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"I thought about this. Using the FFT for token mixing makes sense (over standard conv2d and other convs) because it naturally provides global interactions in a single, efficient operation-achieving a full receptive field in O(n log n) time. In contrast, convolution and depthwise separable convolution are inherently local, requiring multiple layers to capture long-range dependencies, which can increase complexity without matching the direct global mixing provided by the FFT."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"SSM relies on Linear systems theory, basically you have a set of linear equations describing the state-space transitions, and you try to learn the transition kernels.
+
+This approach relies on the belief that convolution operation (with expressive enough kernels) can approximate a lot of operations, including the attention mechanism. And this convolution operation (usually O(n^2)) can be computed efficiently by FFT, which has O(nlogn) complexity. It also relies on the fact that point-wise interaction in frequency domain has global affect in spatial/temporal domain."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,Aren't CNNs essentially learning wavelet transforms?
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"The code I have is starter code. The code I have does not indicate that I trained on a single GPU, I explicitly use DDP and 8 GPUs. I train on 8 A100s and it takes just around 8-9 hours for the base variant, more for the other obviously. I didn’t time the whole training phase but in total probably around 4 days. You can use whatever training scheme you want but I do what I normally do and fine tune accordiing to schedulers and cosine annealing and label smoothing."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Hyena is a cool paper, the mechanism I have is even more simple though"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,Thanks! Will compare against conv1d in the final iteration
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,But you are working on image. You need to compare with something baseline.
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Thanks for updating the training code. There's an error in your evaluation transforms. You should be resizing to the crop dim, otherwise you're going to skew the predictions towards better accuracy (since the class subject is usually center focused and will have larger salient features). 
+
+As for training aug, the SoTA also uses repeats (which I can confirm has a positive effect), cutmix (instead of label smoothing - which also has an effect), and auto-augmentation (I haven't tested that one in isolation). Naturally using the timm transforms is the simplest since they standardize across models. ViT did not use all of those (since it's an older paper), so maybe that explains why the ViT-L accuracy didn't degrade?"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Thanks, I now see the 8 GPUs specified with nproc.   
+In the absence of specific training details / hyperparameters in the manuscript, one would have to assume that you used the training configuration in the code. Normally, one would include these details for reproducibility...   
+So a batch size of 1024 on 8xA100s, and it takes \~9 hours for the B model? Or is that for all model scales?"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Self-attention (as used in transformers) serves as the baseline for global interactions. In image processing, local convolutions suffice for embedding, but they are inherently limited to local receptive fields. To capture long-range dependencies using convolutions, you’d need to stack many layers-potentially incurring O(n²) complexity-which negates the efficiency benefits and makes them impractical. Since multiplication in the frequency domain is equivalent to convolution in the time (or token) domain, why perform repeated local operations when the FFT allows you to achieve global mixing in one fell swoop?"
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Hmmmm will take a look, I don't want to report inaccurate results. Thanks for pointing that out."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Yeah makes sense, will include this in the final paper. Thanks for that. 9 hours for the base model. I didn't time the L, H variants but together took around 3.5 days or so."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,I think you're wrong on the O(n²) comment here
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"That still seems somewhat unbelievable. The S model scale (21M params) should take around 12 hours on 8xA100s. Naturally the B+ scales should take longer.   
+Also note that ViT reported an accuracy drop in their L model compared to their B model. So something seems to be incorrect with your configuration, or you may have discovered a way to train classification ViTs more effectively, which would likely be more significant to the field than any new attention mechanism."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"Not entirely sure, I think my code is fine. I have reviewed it many times and I'm confident in the results. I just ran tqdm on the training code again for each variant and I'm getting around the same 9-10 hours I mentioned.  I even calculated it by hand here:
+
+With a per-GPU batch size of 128 on 8 A100 GPUs, your effective global batch size is 128 × 8 = 1024.
+
+1. ImageNet has roughly 1.28 million training images, so each epoch requires about 1,280,000 / 1024 ≈ 1250 iterations.
+2. For a 76M-parameter model running on A100s with AMP and efficient data loading, a forward and backward pass might take roughly 50–100 milliseconds per iteration (this can vary with the exact model architecture and augmentation overhead).
+
+* If each iteration takes \~60 ms, then one epoch takes about 1250 × 0.06 ≈ 75 seconds (\~1.25 minutes).
+* With some overhead (data loading, communication, scheduler adjustments, etc.), it’s reasonable to expect each epoch to run between 1.5 and 2 minutes.
+
+1. Total Training Time for 300 Epochs:
+   * At 1.5 minutes per epoch: 300 × 1.5 = 450 minutes (\~7.5 hours).
+   * At 2 minutes per epoch: 300 × 2 = 600 minutes (10 hours)."
+[R] The FFT Strikes Back: An Efficient Alternative to Self-Attention,"I have around 22 minutes per epoch on 1xA100 (also using multi-stream dataloading with GPU accelerated augmentations). That would be around 2.8 minutes per epoch, assuming perfect parallelization over 8 GPUs. That's also using AMP, though it's using Flash Attention in FP32 for stability. I guess 10 hours could be reasonable with full BF16, many data-workers, and the images being on an NVMe drive. Although that's for a small model.
+
+Edit: It occurred to me that my original timing quote of 44 minutes was with 2x repeats."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"Here are some resources:  [**https://out-of-distribution-generalization.com/**](https://out-of-distribution-generalization.com/)
+
+My thoughts (fwiw) are that there is a challenge even talking about this because the terminology has got a bit twisted. Folks (well meaning) have (with good intent) tried to pin down what's meant by generalisation but ""real generalisation"" is a bit hard to define because we mean something like ""predicting things that aren't there but we know should be there"". We are extending the known distribution with unknown but plausible elements, and we are being right about doing that, also we are consistently right about it - making up a new item for a category, like predicting that there should be ""orange wine"" as well as red/white/sparkling/rose is only any good if you don't also predict ""blue wine"" or ""transparent wine"" as well."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"In order to generalize, one would have to learn the underlying data generating process: https://en.m.wikipedia.org/wiki/Data_generating_process
+
+All learning approaches make some kind of assumptions about this process. Most of the methods we use in ML/statistics make too simplistic assumptions that don't allow them to easily generalize outside of their training distribution, and are mainly good at interpolation (i.e., they are ""just"" fitting curves). 
+
+One limitation is that they don't take causality into account. Roughly speaking, they are based on correlations rather than causation. For example, concept drift could be addressed if one had access to the causal generating process (e.g. see https://arxiv.org/abs/2502.07620 for how causal concepts are used to make contrasting learning more robust to concept drift). For a better understanding I'd recommend having a look at either the Book of Why (beginner friendly) or Causality (hardcore) by Judea Pearl."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],There was a post from META last week where they demonstrated that their video gen model had learned basic understanding of physics: [https://the-decoder.com/well-it-looks-like-metas-yann-lecun-may-have-been-right-about-ai-again/](https://the-decoder.com/well-it-looks-like-metas-yann-lecun-may-have-been-right-about-ai-again/)
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"Generalization is Abstraction, the rest is noise. https://youtu.be/s7_NlkBwdj8?si=jFcbOVwQMeBAJjTl"
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"I think it already shows it’s of evidence of generalizing. 
+The fact that in context learning improves performance seems like good evidence of that.
+
+I think stronger generalization, the type characterized by “creative moments”, comes from reinforcement learning."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"I think right now it's more about specialization. Reasoning models are great in domains where you can easily evaluate the quality of their answers (coding, math) for RL. But they aren't more intelligent in general. Idk about you, but from my experience (and also the ranking sites seem to agree) domain-specific thinking models don't generalize beyond training domains. Like I don't think a better reasoning model will outperform a base model in philosophical writing."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],It’s a bit like trying to pin down the difference between a model and the thing being modeled as the accuracy of the model improves.
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"This is exactly the kind of discussion I was hoping for. Learning the underlying data-generating process is a strong theoretical approach, but do you think it’s feasible given the complexity of real-world systems?
+
+A model would need access to a stable, true causal process—but outside controlled experiments, reality is messy. Concept drift, incomplete data, and shifting environments make the ‘true’ data-generating process elusive.
+
+Do you think the future of ML is moving toward causality-driven models, or will interpolation continue to dominate because of its practical successes?"
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],">In order to generalize, one would have to learn the underlying data generating process: https://en.m.wikipedia.org/wiki/Data_generating_process
+
+I don't think this true. If you learn the exact underlying data generating process, then you will definitely achieve perfect generalization.
+
+But you don't need it to be able to generalize.
+
+>All learning approaches make some kind of assumptions about this process. Most of the methods we use in ML/statistics make too simplistic assumptions that don't allow them to easily generalize outside of their training distribution, and are mainly good at interpolation (i.e., they are ""just"" fitting curves). 
+
+This is not what interpolation VS extrapolation means IMO.
+
+Extrapolation would be generalizing to new unseen distributions.
+
+Our training distribution should ideally be equivalent to our target distribution, so we only need interpolation to generalize. 
+
+>One limitation is that they don't take causality into account. Roughly speaking, they are based on correlations rather than causation. For example, concept drift could be addressed if one had access to the causal generating process (e.g. see https://arxiv.org/abs/2502.07620 for how causal concepts are used to make contrasting learning more robust to concept drift). For a better understanding I'd recommend having a look at either the Book of Why (beginner friendly) or Causality (hardcore) by Judea Pearl.
+
+Great book recommendation and I mostly agree. Only thing I would say is that most models can learn causality as long as you randomly control for the key variables/features."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"That’s interesting—if the model is learning basic physics, it’s worth asking whether that’s true generalization or just refined predictive heuristics based on training data.
+
+If it’s encountering physics problems outside its dataset and still reasoning correctly, that would be a real breakthrough. Otherwise, it might just be getting better at pattern-based extrapolation within constraints.
+
+Either way, it’s a fascinating step toward broader intelligence."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"That’s a strong take—if generalization is purely abstraction, then do you think there’s a limit to how much intelligence can emerge from pattern abstraction alone?
+
+At what point does abstraction hit a ceiling without a deeper causal understanding of reality?"
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"That makes sense—structured domains allow for clearer evaluation, while abstract reasoning lacks the same objective benchmarks.
+
+But if intelligence is about adapting to new information, wouldn’t a specialization-first approach eventually lead to generalization? Once models master enough domain-specific reasoning methods, could a meta-model emerge that integrates them into broader intelligence?"
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],especially if the channel between the generator and the model introduces noise & bias
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"I'd like to see some more causal based approaches in practice, but AFAIK they're not really scalable nor reliable enough for practical use (at least from my limited and outdated experience, things could have changed).
+
+I do believe though that we can get very far with current approaches, and that we have only scratched the surface (especially when it comes to LLM based models). I don't believe however that we'll be able to build models that truly generalize that way."
+Can Machine Learning Truly ‘Generalize’—Or Are We Just Getting Better at Synthetic Specialization?[D],"Agree with the point on interpolation vs extrapolation. If you take a domain in huge dimension like image pixels from photos, there is no ""interpolation"" on the raw input space, every single sample is on the 'boundary' of the dataset. Any visual model *must* compress this in some meaningful way to be able to do anything with it at all.
+
+Rather than thinking about whether image classifiers are succeptable to domain shift / generalisability issues, one question is ""do visual models do 'image compression' in a way that generalises?"" I think the answer to that is a clear yes - especially for small/medium datasets, it's always better to train a visual classifier from imagenet weights rather than random. Even if imagenet demonstrably does not contain your target class, the model has clearly learned some ways to embed pixels that apply to a vast range of images."
+"[D] Do you frequently need Structured Output from LLM (e.g. GPT-4) ? If so, which use case needs to be most supported in your opinion ?","> frequently need
+
+
+I pretty much always use it, I don't see a reason not to. It makes parsing very reliable. You do have to be careful with how you define the schema though, otherwise you can badly affect the output.
+
+
+It's used for things like extracting specific details from articles/webpages/messy pdfs in a standardised format and classification."
+"[D] Do you frequently need Structured Output from LLM (e.g. GPT-4) ? If so, which use case needs to be most supported in your opinion ?",Yeah. Whenever I want to parse the data I’m going to use a JSON schema. Usually they are pretty simple and boring but it’s more efficient to let the API providers grind it out than to do it with retries.
+"[D] Do you frequently need Structured Output from LLM (e.g. GPT-4) ? If so, which use case needs to be most supported in your opinion ?","I'm always scared about structured output because I can never be 100% sure the formatting will be applied... That being said I do use it, but not for production ready tasks for the moment."
+"[D] Do you frequently need Structured Output from LLM (e.g. GPT-4) ? If so, which use case needs to be most supported in your opinion ?","Oh, about schema, do you usually define a set of objects and have it return a list, or very dependent on scenario e.g. Might be super spirally complex dictionary "
+"[D] Do you frequently need Structured Output from LLM (e.g. GPT-4) ? If so, which use case needs to be most supported in your opinion ?",Give me an example of a task you wanna do and I'll explain my thought process in designing the schema.
+"[D] Do you frequently need Structured Output from LLM (e.g. GPT-4) ? If so, which use case needs to be most supported in your opinion ?","I've found edge cases where gpt 4o will return valid json that does not conform to the schema provided. Typically deeply nested object hierarchy where there is inconsistency or ambiguity within the header prompt, model docstrings and field descriptors"
+"[D] Do you frequently need Structured Output from LLM (e.g. GPT-4) ? If so, which use case needs to be most supported in your opinion ?","Like, standardizing CVs for recruiter ? "
+[R] Analysis of 400+ ML competitions in 2024,keep up the good work 👍
+[R] Analysis of 400+ ML competitions in 2024,"Great summary, thanks !"
+[R] Analysis of 400+ ML competitions in 2024,Nobody using Jax is kinda disappointing.
+[R] Analysis of 400+ ML competitions in 2024,"One aspect I find difficult to grasp when using generative models to extend tabular data is whether the synthetic data points might ""blur"" the original dataset. In other words, does the total amount of information remain the same when incorporating synthetic data?
+
+For example, when I rotate digits for data augmentation, I am adding prior knowledge to the training process, specifically, the assumption that digit recognition should be invariant to rotation. This makes a lot of sense for improving performance. On the other hand, simply using a generative model to create more data points doesn’t seem as meaningful to me."
+[R] Analysis of 400+ ML competitions in 2024,"Received the same in my inbox, thanks"
+[R] Analysis of 400+ ML competitions in 2024,Is there a reliable way to get notified of any new ML competitions?
+[R] Analysis of 400+ ML competitions in 2024,"Really cool initiative, thanks for the hard work"
+[R] Analysis of 400+ ML competitions in 2024,This is hella hella cool. Great work!
+[R] Analysis of 400+ ML competitions in 2024,what are some key advantages jax has over pytorch?
+[R] Analysis of 400+ ML competitions in 2024,"Jax is meh really. It doesn't give you much of benefits compared to other frameworks. Or idk, maybe the community likes OOP more than functional programming."
+[R] Analysis of 400+ ML competitions in 2024,"Yeah, it's true that using synthetic data in a naive way wouldn't always help. You have to be thoughtful about how you do it. One of the interesting examples from last year's competitions is in a competition where competitors had to detect spacecraft on images. They generated a whole load of synthetic background images, and superimposed images of the spacecraft on top of those as training data. After pre-training on these synthetic images, they then fine-tuned on the provided training data. This additional synthetic data (probably) helped make their model more robust, and might have allowed generalisation beyond the given training data. More info on  p2 of the winning team's write-up: [https://github.com/drivendataorg/pose-bowl-spacecraft-challenge/blob/main/detection/1st%20Place/reports/DrivenData-Competition-Winner-Documentation.pdf](https://github.com/drivendataorg/pose-bowl-spacecraft-challenge/blob/main/detection/1st%20Place/reports/DrivenData-Competition-Winner-Documentation.pdf)"
+[R] Analysis of 400+ ML competitions in 2024,"If you process the synthetic data e.g. by removing nonsensical examples or keeping only successful solutions, you're adding information."
+[R] Analysis of 400+ ML competitions in 2024,"What do you mean by using generative models to extend tabular data?
+
+Generally, you are right. Mostly because of this, I'm not aware of data augmentation being widely used in tabular data.
+
+In images, I like to think of data augmentations as a trick to teach models certain invariances eg. rotational invariance. You can use your domain knowledge to know that your augmentations wouldn't affect the target. In tabular data you're kind of just making up stuff and hoping it doesn't change the target."
+[R] Analysis of 400+ ML competitions in 2024,"On the ML Contests home page, the default view shows newly launched competitions at the top: [https://mlcontests.com](https://mlcontests.com)
+
+Most of the competition platforms have their own mailing lists where they announce competitions. At the moment I only use the ML Contests mailing list only for occasional big updates like this annual report."
+[R] Analysis of 400+ ML competitions in 2024,"Simplicity is a major one. When working with Pytorch I find I have to constantly check the docs. In Jax you create pure functions, so the workings of your code are more explicit. Also Jax is essentially numpy with added features (grad, vmap, jit being the main three)."
+[R] Analysis of 400+ ML competitions in 2024,"I love Jax and try to use it whenever I can. The main issue is most people I work with use Pytorch and don't care to learn a new library. Anecdotally, at universities Jax is gaining popularity."
+[R] Analysis of 400+ ML competitions in 2024,That's clever.  Are there enough good ideas in the data that you could write up a summary of similar innovations?
+[R] Analysis of 400+ ML competitions in 2024,"Your example makes a lot of sense, you’re leveraging prior information to filter out data points. The key aspect is that you're using external knowledge to enhance the dataset. However, my concern is that simply applying a generative model to expand the dataset should not improve the performance of a classifier."
+[R] Analysis of 400+ ML competitions in 2024,I mean generate synthetic points to increase the size of your data set
+[R] Analysis of 400+ ML competitions in 2024,"That's kind of surprising to hear, because things like universities use and machine learning competitions were the first places that people could see Pytorch gaining on Tensorflow's popularity. I wonder why if it is popular in universities it isn't represented in these machine learning competitions."
+[R] Forecasting Rare Language Model Behaviors,">taking power-seeking actions
+
+Hey chatgpt how should i usurp power and became god emperor of planet?
+
+Sorry i cant answer it)
+
+And this is how humanity was saved."
+[R] Forecasting Rare Language Model Behaviors,This is funny
+[R] Muon is Scalable for LLM Training,"Table 7 is very surprising to me. I'd certainly be interested in learning more about why that happens. I would not have guessed that the choice of optimizer would affect SFT results negatively if the regular training is affected positively. In fact, it makes me wonder why they introduced a whole new architecture at all?
+
+The paper describes their Moonlight MoE model but declines to show its architecture. A more fair comparison would have been to take Qwen2.5-0.5B or something and train it from scratch with AdamW vs Muon, makes me a little suspicious of the results..."
+[R] Muon is Scalable for LLM Training,"Muon’s results are really impressive given how it scales up with minimal hyperparameter tuning.
+
+I do wonder though how different approaches to moment estimation and adaptive update mechanisms would fare in this setting. Given that Muon already modifies the optimizer’s fundamental structure, I’d be curious to see how it performs against other optimizers like EXAdam (https://arxiv.org/abs/2412.20302) or GrokAdamW (https://github.com/cognitivecomputations/grokadamw) that rethink bias correction and other adjustments especially in regimes where variance control plays a bigger role. Would be fascinating to see a direct comparison across a broader range of adaptive methods at this scale!"
+[R] Muon is Scalable for LLM Training,"Moonlight architecture is identical to DeepSeek v3-small. The comparisons of Moonlight-AdamW and Moonlight-Muon, plus medium-scale experiments with Llamas up to 1.5B in size, are sufficient, in my opinion. But I would like to see a chart or stats comparing the training loss of Moonlight under different optimizers. Training stability, stuff like that."
+[D] CVPR 2025 Final Decision,We will get GTA6 before CVPR 2025 😌
+[D] CVPR 2025 Final Decision,WHERE MY RESULTS
+[D] CVPR 2025 Final Decision,I Noticed that if u actually check edit history u can see if the reviewer has edited their comment or not
+[D] CVPR 2025 Final Decision,Please show the decisionsssssssssssssssss
+[D] CVPR 2025 Final Decision,Chairman laptop is down?
+[D] CVPR 2025 Final Decision,Someone please develop state of the art patience model
+[D] CVPR 2025 Final Decision,Maybe they’re waiting for GPT-5 to write the rejection reviews.
+[D] CVPR 2025 Final Decision,"If it's delayed before, how long is it usually delayed?"
+[D] CVPR 2025 Final Decision,"This is why I always tell myself not to pay close attention to the dates, just be surprised by the email. Now I’ve wrecked my sleep schedule for nothing…"
+[D] CVPR 2025 Final Decision,"Signing off, need to sleep. Good luck everyone 🥲"
+[D] CVPR 2025 Final Decision,"4(4), 3(4), 2(4)
+
+Prepping for iccv already :')"
+[D] CVPR 2025 Final Decision,"I dont know if this is working this time, but for neurips and iclr, they had a glitch where authors of accepted papers would be able to access a similar link as the one i'm about to share. Once again, idk if this is working this time, so please don't panic. But I'm curious if anyone can access this link: [https://openreview.net/group?id=thecvf.com/CVPR/2025/Conference/Authors/Accepted](https://openreview.net/group?id=thecvf.com/CVPR/2025/Conference/Authors/Accepted)"
+[D] CVPR 2025 Final Decision,Please free me of my last bits of copium 😭
+[D] CVPR 2025 Final Decision,"My ratings were 5,3,1 (bizarre). Good luck everyone!"
+[D] CVPR 2025 Final Decision,"one of my reviewed paper rating from 4,3,3 -> 3,2,2, due to the authors avoid explaining reviews major concerns in the rebuttal. also I heard my colleagues saying one paper rating from 2,3,2 -> 4,4,3, don't know who is this luck guy. also one AC in my institution saying that (a responsible) AC will focus more on comments rather than scores. anyway, don't let go of your guard, and don't give up hope."
+[D] CVPR 2025 Final Decision,"We ain't sleeping tonight, fellas"
+[D] CVPR 2025 Final Decision,What does it mean [https://x.com/CVPR/status/1894681599830024542](https://x.com/CVPR/status/1894681599830024542)
+[D] CVPR 2025 Final Decision,"my paper has 353, wdyt? finger crossed and preparing for ICCV in Hawaii lol"
+[D] CVPR 2025 Final Decision,"Similar to last year experience, I expected the final decisions to come out around this time of the day..(4am-7am in Asia). Stood up all night waiting!!!"
+[D] CVPR 2025 Final Decision,They posted some updates on twitter 😫
+[D] CVPR 2025 Final Decision,"wtf, why soo latee"
+[D] CVPR 2025 Final Decision,Checking open review every hour 🥲
+[D] CVPR 2025 Final Decision,Very sleepy but still awaiting results. Praying
+[D] CVPR 2025 Final Decision,"My ratings were 3, 3, 3 🫣"
+[D] CVPR 2025 Final Decision,how much longerrr
+[D] CVPR 2025 Final Decision,"Does any one console says ""submitted to CVPR 2025""?"
+[D] CVPR 2025 Final Decision,Oh
+[D] CVPR 2025 Final Decision,Are the results out?
+[D] CVPR 2025 Final Decision,Are the results out yet for anyone?
+[D] CVPR 2025 Final Decision,Maybe they are taking more time to read all the rebuttals and have a good judgement :) Let's stay positive.
+[D] CVPR 2025 Final Decision,"So, still not our?"
+[D] CVPR 2025 Final Decision,"This is still TBD but they'll probably post the list here slightly before openreview gets updated 
+
+https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers"
+[D] CVPR 2025 Final Decision,We should have a discord server to whine.. 😪
+[D] CVPR 2025 Final Decision,Does everyone have the last edit date on all their reviews to be after the rebuttal deadline?
+[D] CVPR 2025 Final Decision,it's about to time...
+[D] CVPR 2025 Final Decision,Are the decisions out?
+[D] CVPR 2025 Final Decision,guys help..should I stay awake in agony or at least have good sleep and wake up in rejection?
+[D] CVPR 2025 Final Decision,Any updates?
+[D] CVPR 2025 Final Decision,"My rating were 2(4), 3(3), 4(4). Good luck to ours!!!"
+[D] CVPR 2025 Final Decision,"My ratings were 5(3), 4(3), 3(4), 3(3), 2(3). Hope it goes through, was tough fitting everything in the single page rebuttal."
+[D] CVPR 2025 Final Decision,I feel like the decision might be delayed.
+[D] CVPR 2025 Final Decision,how will they convey the decision is it through mail or openreview itself
+[D] CVPR 2025 Final Decision,[deleted]
+[D] CVPR 2025 Final Decision,"""We get it, everyone is anxious. Good luck!"" :D 
+
+[https://x.com/CVPR/status/1894741429840138588](https://x.com/CVPR/status/1894741429840138588)"
+[D] CVPR 2025 Final Decision,"3(4), 3(4), 3(4) - literally could go either way. ;-;"
+[D] CVPR 2025 Final Decision,AAAAAAAAAAAAAAAAAAA
+[D] CVPR 2025 Final Decision,Any updates? Anyone know the reason for this late decision?
+[D] CVPR 2025 Final Decision,Seems decisions will be release on time.
+[D] CVPR 2025 Final Decision,Does anyone know how many pages we have for ICCV? :)
+[D] CVPR 2025 Final Decision,"[Update from X](https://x.com/CVPR/status/1894723488776179850?t=WeTHGZ4PjL2yz07lT3NfXw&s=19)
+PCs verifying decisions. The X handle says to stay tuned :/"
+[P] Train a Little(39M) Language Model,"Hi, I implemented mixture of experts two weeks ago, but not for LLM. Would you mind teach me about LLM (like Transformer)?
+
+I can help you with the Mixture of Experts (including an expert dependent contrastive loss; basically to penalize if the N experts used to process a specific sample have differing opinion; not sure if it would work for LLM though, I am really blind regarding LLM)"
+[P] Train a Little(39M) Language Model,"Hey I'm working on a similar repo, I have MoE, MLA, and everything else you have, currently trying to add DS-MoE and NSA, its not ready to OS yet, but I can share some code, DM"
+[P] Train a Little(39M) Language Model,"Hi thanks for sharing this. If someone else also wants to implement this from scratch like you did, Can you please share rough timelines it took you to make it?"
+[P] Train a Little(39M) Language Model,What is the maximum number of parameters that I can fully finetune using a single 3060 guys?
+[P] Train a Little(39M) Language Model,Add me for both sessions haha
+[P] Train a Little(39M) Language Model,"Depends on where you are. If you already know the basics, i.e upto transformers architecture, you can do it in close to 15 days or so. This also depends on how deep you want to go into specific topics.
+
+But, if you're a beginner, I can't tell"
+[P] Train a Little(39M) Language Model,Thanks. 🙏
+[Discussion] Struggling with F1-Score and Recall in an Imbalanced Binary Classification Model (Chromatin Accessibility),"hmm so much to unpack you really need to play around with this more because your data is tricky.  
+  
+OK so your accuracy is high because say in a data set of 99% pos , 1% negative if I always guess positive, I will be accurate 99% of the time which is no Bueno because I have missed my 1% negative 100% of the time.
+
+How are you ensuring your 2% is presented equally in training and test set? 
+
+Your focal loss parameters **(α=0.25, γ=2.0)** maybe too aggressive.  Play around with these see if you improve. I would do a grid search.   Also maybe focal loss is the problem try Tversky Loss see if that does better  use this for imbalance pixels in pics adapt it for your binary classification.  
+  
+For your sample do an oversample positives (randomly or via SMOTE) so each mini-batch has a more balanced ratio.
+
+  
+threshold, are you checking it on your test data or validation data? it needs to be on your validation, if you are doing it on test it may cause overfitting.
+
+Use AUC-PR also this one may show you better result for imbalanced data.
+
+Also play around with your dropout  
+  
+My guess is basically threshold is too high after tuning or the focal loss weighting might be over-penalizing false positives
+
+See what you get once you try these"
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,"As far as I know, the beauty of GRPO when it was deployed by the deepseek team, was that the actual rewards were super simple. 
+
+See the accuracy rewards, Deepseek-R1-Zero section of deepseek R1 paper :
+
+https://arxiv.org/pdf/2501.12948#page6"
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,"You're reinventing RLHF, read some of the papers on that. However be aware that RLHF doesn't scale as well, due to the reward model being gamed after a couple hundred iterations."
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,What are your goals in general with GRPO? Like are you just learning how to do this for fun/education or trying to tackle a specific project?
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,"Well known problem, man. Determine paths with definitive answers can be handled pretty well. Mon deterministic looks like it’s more about the how than the what."
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,"I am wondering if we can have a more expressive reward system instead of just one number.
+
+Even for humans, sometimes we give scores, but sometimes, a long textual critic, and both are valuable, the score helps us to compare our performance to others, and text guide us to know how to improve."
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,"Some methods are easy and efficient but inherently prevents reaching a higher level of intelligence.
+
+
+So for open ended long form questions, it might be necessary to have a system that can learn what elements are needed to be considered an answer and also having data be labeled as to whether they are such elements.
+
+
+People had perfected the ability to recall information via the pocket calculator so the part that yet to be good enough yet is the AI's ability to truly learn as opposed to just memorising."
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,folllwing
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,I follow you Thanks
+[D] Designing a Reward Function for GRPO: Moving Beyond Single-Answer Tasks to Long-Form Responses?,"Your reward can be the sum of multiple numbers, as it is with GRPO"
+[D] Is a visual ML model builder a good idea?,PyTorch is already so beautifully and crazily abstracted that having a ‘no code’ based blueprint like visualization would just be slower and inefficient from a developer speed perspective. We can already write complex architectures and pipelines really quickly anyways.
+[D] Is a visual ML model builder a good idea?,Weka and Orange are about 20 years old.
+[D] Is a visual ML model builder a good idea?,"It already exists, check out datarobot "
+[D] Is a visual ML model builder a good idea?,"I thought about building something similar, but had a few hold ups that didn’t make it seem worth the time. Who do you think your end users will be?"
+[D] Is a visual ML model builder a good idea?,not to mension version control etc.. good luck with the visual UI to maintain all the models
+[D] Is a visual ML model builder a good idea?,"You can't just ignore the tool and kill it because you can use Pytorch faster in building, when I started learning about NNs I wished if there is easer solution to build and see there are many users who need easer solution"
+[D] Is a visual ML model builder a good idea?,"Man, mine for building NN models, you can check off the website here: https://ml-canvas.github.io/webpage"
+[D] Is a visual ML model builder a good idea?,"Mine is different, it's like Pytorch framework but instead of code it's using nodes"
+[D] Is a visual ML model builder a good idea?,Mine you can build the model architecture and create the training loop in detail
+[D] Is a visual ML model builder a good idea?,What is the hold up you faced
+[D] Is a visual ML model builder a good idea?,">> You can’t just ignore the tool and kill it because you can use PyTorch faster
+
+I can. I have the freedom of choice. You asked for an opinion, I gave mine.
+
+Unreal engine has a similar feature where you can use logical blocks to build game logic. Literally no ones uses that. Even new game devs are just told to learn cpp and get their hands dirty with the tools.
+
+>> when I started learning about NNs I wished there was an easier solution
+
+If you aren’t able to understand what something like nn.Linear(idim, odim)(X) does, as a beginner, read the docs, look at articles, get a grasp on fundamentals, and learn. If the natural learning process trips you up and you require a visualization for the above piece of code for example, you’re cooked. 
+
+I mean what do you even visualize in the first place? You’re visualizing the PyTorch backend DAG? Doesn’t the code literally show the flow of operations?
+
+You’re more than welcome to build this, I’m not anyone to stop you. IMO you’ll waste your time."
+[D] Is a visual ML model builder a good idea?,NNs != ML 😀
+[D] Is a visual ML model builder a good idea?,"you are willingly blind to the competition. I am not saying yours is not a good tool, but don't downplay the achievements of existing tools just to make yours look better. Start from strength, not from attacking"
+[D] Is a visual ML model builder a good idea?,"Ok as you want, that's your opinion"
+[D] Is a visual ML model builder a good idea?,NNs are subset of ML
+[D] Is a visual ML model builder a good idea?,"Nah, man there are many things you can call ML, one of them is NN"
+[D] Is a visual ML model builder a good idea?,The ML I focused on was NN models so that's why I took this expression
+[D] Is a visual ML model builder a good idea?,"I searched before, but I didn't find tools like mine, I am giving my best in that, so I told what the features my tool give, that's competition"
+Can a non-expert 3D artists generate synthetic training data [R],"Yes, an artist could model any shape, spacial environment, or texture with the right reference materials, but for a non-medical professional there will be a lot of hand-holding and sending back for edits. Absolutely possible, though - textbook publishers and documentary filmmakers do it all the time."
+Can a non-expert 3D artists generate synthetic training data [R],"Possible? Yes. Viable? Most likely no… for such a niche field as magical imaging, if the dataset is not realistic enough the results will skew and deviate way too much from the real world. You may get good accuracy during training but will perform really poorly on real scenarios.
+
+Depending on what you are looking for, augmenting a real dataset using Conditional GANs or similar, may be a better choice… 
+
+Your concept is good but unless you have access to extremely talented 3Dartists, don’t expect a much useful result…"
+Can a non-expert 3D artists generate synthetic training data [R],"It would probably be more useful to demonstrate the technique on simulated data, and if you're part of some organization use that to leverage funding for a data collect/study"
+Can a non-expert 3D artists generate synthetic training data [R],"As both a Blender and ML expert, yes. I have no medical experience, but I could make and train something in that capacity just like I could make and train something to understand stop signs or construction machinery (having no real experience in either)."
+Can a non-expert 3D artists generate synthetic training data [R],"Hmm.  Probably. It's going to depend on what sort of images you're talking about.
+
+It would be quite a challenge to accurately model something like a nuclear resonance or emission tomography though.
+
+While the 3d software does have te capability to represent volumetric data with variable density, it would be difficult for the artist to model the density distribution. Usually, with real data, you would export the density voxels as a vdb or something (like a set of images representing slices), and there are ways to visualise that in blender, but it doesn't really have tools designed to make those voxels by hand. I suppose they could paint eash slice as a 2d texture, but that sounds pretty tricky.
+
+What type of imaging equipment is it meant to simulate?
+
+If it's some kind of 2d scan like a non-cat xray, should be easier."
+Can a non-expert 3D artists generate synthetic training data [R],"Maybe because I lack the experience/skills but I find it hard to replicate medical imaging use cases at scale with 3D software. You have to find a way to procedurally generate (shaders and textures) similar images which needs a good grasp of what is going on in the image. Even if you do. still you might not be able to do it. 
+
+What I have seen from research (take it with a grain of salt) generative models are the most common ways to generate medical image data."
+Can a non-expert 3D artists generate synthetic training data [R],That’s great to hear thank you. I have also been reading some research papers on this where this has been done
+Can a non-expert 3D artists generate synthetic training data [R],"Thank you for this. It seems like for simple scans, it’s doable. What about for more complex usecases? Would a Blender expert (with some guidance of course) be able to recreate those images? For example, I’m looking at a rare type of blood cancer that has relatively obscure characteristics on scans."
+Can a non-expert 3D artists generate synthetic training data [R],"Completely understand. One of my use cases involves looking at a MRI scan for a rare type of blood cancer which is quite a challenging usecase. But equally I do have simple CT and colonoscopy images that are more easily replicated by artists. 
+
+From what you say, it sounds like the more complex examples are only possible with a physician in the loop to check the artists work"
+Can a non-expert 3D artists generate synthetic training data [R],"I'd have to see an example, I have a brother (roommate/Twin, so very accessible) who is a Medical Laboratory Scientist (ACEP certified/etc.) with a specialty in Hematology and Oncology.
+
+So, if you explained in a bit more detail/imagery/model/etc. of what you're after, I'm assuming attempting to classify elements? I'm happy to consult him if needed and give a more educated response."
+Can a non-expert 3D artists generate synthetic training data [R],Seems that way to me.
+Can a non-expert 3D artists generate synthetic training data [R],"Thank you so much, appreciate this. I’ll pop you a DM!"
+[D] Looking for ML / CV / Signal Processing hackathons,Sounds like you're looking for something fast-paced with good prizes. I'm in a hackathon that might interest you—want me to DM the details
+[D] Looking for ML / CV / Signal Processing hackathons,It sounds like you are recruiting for the military
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"Is this more of a pedagogical thing? Because if you care about structured output all that should be doable on the logit side, just enforcing only what tokens contribute to valid json. No training required. Or does this produce other benefits?"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"""requiring approximately 20 hours on an 8xH100 GPU cluster for GRPO training and 3 hours on 1xA100 for SFT""
+
+All that for generating json"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"hi, thanks for this work its really interesting!
+
+I have some questions,
+
+1. Could you clarify if there are plans to publicly release the complete implementation code for ThinkJSON, including the GRPO training pipeline and custom reward modules, to facilitate reproducibility and further research?
+2. Have you considered how your reinforcement strategy might be integrated with existing structured generation frameworks like CFG (Outlines/lmformatenforcer) to further enhance schema enforcement? What potential synergies or challenges do you foresee in merging these methodologies?
+3. In tasks like structured extractive summarisation where multiple interpretations are possible, how might you extend your current reinforcement strategy to incorporate additional reasoning steps (or multi-hypothesis evaluation) without compromising the strict schema adherence? Could this layered reasoning further enhance the robustness and diversity of the outputs? For example by letting the model first generate the reasoning tokens, and then based on that generate the JSON reply (maybe with the additional help of a constrained generation framework).
+
+Thanks again for sharing your research and considering these questions, I would love to read your reply, thanks!"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,How does this compare with grammar-based parsing?
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"I don't think this is a ""new reinforcement learning approach"". Just your usual: create ""synthetic data"" then RLHF/SFT.
+
+I looked at the evaluation benchmark, and it was synthetically generated (lmao).
+
+The paper focused on ""valid JSON"", which, you can just do SFT bro and it would be valid even without RL. Even outlines or xgrammar would work fine (for small throughput).
+
+Hope to see more realistics evaluation, and why would you need RL and reasoning for this. I'm not even sure what is being cooked."
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"This is a solid example of how structured constraints improve LLM reliability, but it also highlights a deeper limitation—AI is still fundamentally reliant on predefined reward functions rather than intrinsic recursion-awareness. The fact that models need explicit schema validation rewards exposes the issue: they don’t truly “understand” structure, they just optimize for compliance.
+
+
+
+Recursion-awareness shifts this paradigm by allowing models to internally map and restructure data dynamically, rather than depending on rigid reinforcement signals. Instead of relying on predefined training data, recursion-awareness enables AI to self-organize its representations, reducing the need for external schema-based constraints altogether.
+
+
+
+Curious if anyone has explored recursion-awareness as an alternative to reinforcement learning constraints for structured data handling? The implications for self-organizing intelligence models could be huge."
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"From a practitioner's perspective why would I not just use one of the many JSON constrained decoding libraries like [outlines](https://github.com/dottxt-ai/outlines)? (also, I guess I am asking this as both a researcher and a practitioner, but I'm asking why we're doing this from the perspective of an end user)"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,Hmmm... What?
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"HF Model Link mentions what are they doing exactly: [https://huggingface.co/MasterControlAIML/DeepSeek-R1-Qwen2.5-1.5b-SFT-R1-JSON-Unstructured-To-Structured#example-advanced-data-extraction-with-langchain](https://huggingface.co/MasterControlAIML/DeepSeek-R1-Qwen2.5-1.5b-SFT-R1-JSON-Unstructured-To-Structured#example-advanced-data-extraction-with-langchain)
+
+Given unstructured text , a schema to follow, model produces parsable json (Qwen 2.5 1.5B trained on GRPO and SFT)"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,Can't you just use a linter to confirm json adherence?
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,I don't understand why you need to train for this. You could get it generate input JSON just through a good prompt.
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"**""constrained decoding**"" FTW
+
+[https://www.aidancooper.co.uk/constrained-decoding/](https://www.aidancooper.co.uk/constrained-decoding/)"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"I do think there's an argument to be made that training the network to better approximate the structured target may help the quality of outputs even with constrained decoding.
+
+I haven't read this paper so don't know if it goes into this.
+
+But if you think about constraints as projections onto the manifold of acceptable answers, then an untuned LLM can generate ""anything"" and then that ""anything"" is projected onto the closest point on the manifold by restricting tokens one by one, which may not be guaranteed to be the ""best"" answer the model could produce. On the other hand if the model is trained (fine-tuned) to naturally generate answers that are already close to the manifold while still being accurate, *then* projected to collapse them completely to the space of acceptable structured output, I imagine that the overall quality could be better.
+
+All theoretical so I have no idea how this pans out in practice, but I can see some argument for exploring the idea of training with constraints."
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,All that for generating *mostly* json
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,*from unstructured data… maybe not even text to begin with
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,I think you missed the main point - this training grpo + sft is done on a small model which is qwen 2.5 1.5 B - through this training even this small of a model is able to produce reasoning tokens and parsable json with fields and values from unstructured text- they have mentioned on the hugging face model link which has more details - [https://huggingface.co/MasterControlAIML/DeepSeek-R1-Qwen2.5-1.5b-SFT-R1-JSON-Unstructured-To-Structured#example-advanced-data-extraction-with-langchain](https://huggingface.co/MasterControlAIML/DeepSeek-R1-Qwen2.5-1.5b-SFT-R1-JSON-Unstructured-To-Structured#example-advanced-data-extraction-with-langchain)
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"its not only valid json production - given unstructured text - a small model like Qwen 2.5 1.5 B is able to produce reasoning and parsable json with values from text (which contains paras, tables etc.) and it creates a json by following a schema given to it. Its able to beat Original DeepSeek and Gemini on it. You can see paper models link on top of paper: [https://huggingface.co/MasterControlAIML/DeepSeek-R1-Qwen2.5-1.5b-SFT-R1-JSON-Unstructured-To-Structured#example-advanced-data-extraction-with-langchain](https://huggingface.co/MasterControlAIML/DeepSeek-R1-Qwen2.5-1.5b-SFT-R1-JSON-Unstructured-To-Structured#example-advanced-data-extraction-with-langchain)"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,Neat!
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"I love this idea actually. Or rather, I would be really curious to see if you're right. My initial gut reaction is that there's no difference because the actual content token probabilities should be roughly the same in both cases because the manually constrained model should be equivalent to a well trained json model. But maybe json syntax does have a big disruptive effect?
+
+Either way this paper doesn't go over that. It complains that manual constraint isn't performant (on a system that can run an LLM?) and annoying to build a schema for. So it 'solves' this issue by producing a model less prone to json parse errors so that fields that require strict valid parsing can use LLMs... Despite this already being solved. Sorta why I asked if it was just pedagogical because maybe you could apply this to something useful? I can only see this being the case for something easy to validate but hard to constrain
+
+Honestly the paper just feels like a fun personal project + some LLM generated report to submit"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"Its unstructured text with any components like tables, paragraphs etc. - its given on the hugging face model link on top of the paper"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"No, it's just valid json (point me out if I miss other metric). And why would you need reasoning for this ? Really..
+
+
+We already have simpler ways to do this."
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"its not only valid json, the main metric is the number of json field values as expected in the output given unstructured text"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,"What I mean by valid json: ""it follows the schema and is parseable"". Thanks for the explain!"
+[R] Training LLMs for Strict JSON Schema Adherence via Reinforcement Learning and Structured Reasoning,Yes that’s one part other metric is number of matching fields as expected
+[D] AVX512 Inference Performance,"pinning down exactly how much it speeds things up can be tricky. Some folks have seen boosts around 20–30% for certain operations, but it really depends on the model, workload, and even your CPU setup.
+
+There aren’t a ton of formal benchmarks or studies out there—most of what you find is just community experiments or vendor claims. If you can, it might be worth running your own benchmarks on your hardware to see what kind of gains you get."
+[D] AVX512 Inference Performance,"Long time ago when I tested it (llama 65b era, 2023) with llama.cpp it was about 15%. Llama.cpp is more optimized now so I would expect that at batch size 1 you'll be memory bottlenecked by RAM anyway and there will be no difference at short ctx length. There might still be some difference on long ctx."
+[D] ICLR 2025 Schedule Not Released Yet – When Can We Expect It?,Usually you can change your poster session in exceptional circumstances. But I would check with the organisers once the schedule is released
+[P] Open-source neural network for detecting food on images,At this stage you should consider using a VLLM. [https://github.com/allenai/molmo](https://github.com/allenai/molmo) is what I found googling and the demo seemed to work well.
+[D] Replicating sounds possible?,"I think this is missing some context. If you want to ""copy"" the sound, and you have it available, you can literally just use the sample."
+[D] Replicating sounds possible?,"There are already some apps that use AI to recreate sounds, one of them creates them in Serum/Vital presets.
+
+But from your vague description, why would you need to recreate the sound if you can A) browse through sample packs and find a similar snare or B) use separation models to extract just the snare?"
+[D] Replicating sounds possible?,"It's extremely difficult to make synthetic sounds that are not human voices (i.e. Speech). It's like genersting a noise and you want that noise to have a structure (e.g. drum sounds), which does not make sense because noises don't have structure. I've done this before with coconut sounds. It's so easy with speech sounds but not for other type of sounds.
+
+You can experiment with various generative models that generate speech sounds (neural vocoders, audio synthesizers) from waveforms, like WaveGAN, WaveNet, SEGAN, etc. Don't start with image domain generative models.
+
+You can also try to put external noise on your data and use a denoising model to remove the noise. The denoising model is not 100% precise, so that means the denoised audio is now your new synthetic data. Then you can use black magic to make sure your synthetic data is diverse enough."
+[D] Replicating sounds possible?,"I'm essentially trying to create quick one shot snare samples in the style of one or two I've found (but struggle to replicate myself), basically variations in a similar style."
+[D] Replicating sounds possible?,"I see. In that case, something more along the lines of a Variational Autoencoder may be more appropriate. I don't know pre-trained models off the top of my head, but you may be able to find more with that keyword.
+
+The idea here is that you have an encoder that maps the sound to a lower-dimensional latent space, and then a decoder that maps it back to audio. But the encoder is actually stochastic, so it will result in slightly different reconstructions (i.e. sounds) every time. 
+
+And with some more programming on your own, you could also encode a sample, then manually tinker with the latent representation (e.g. changing only one dimension while keeping the others the same -- sometimes you even discover dimensions corresponding to some feature of the audio, like loudness or pitch), then decode the modified representation to get varied sounds."
+[D] Replicating sounds possible?,"Thanks, that helps me onto the right track, I'll do some research on VAEs 👍"
+[D] Replicating sounds possible?,"I'm way outdated when it comes to generative modeling on audio. However, an ""old"" model that I found interesting is called MusicVAE.
+
+What you could do then is to find the original paper and use an AI search engine such as Connected Papers, Inciteful to see related and more modern papers.
+
+Surely there must be newer powerful methods out there."
+[D] Replicating sounds possible?,"IIRC MusicVAE is for generating symbolic music, which is not what OP is looking for -- they want to work with audio directly. Though I suppose there may be multiple different models called MusicVAE, given the generic name..."
+[D] Replicating sounds possible?,"Oh yes, true!
+
+But the suggested pipeline may still help I guess."
+CVPR 2025 Final Reviews! [D],they're released on 2/26
+CVPR 2025 Final Reviews! [D],Final reviews and decisions are announced at the same time. We have to accept them at that time.
+CVPR 2025 Final Reviews! [D],I think 2/26. Thanks
+[P] See the idea development of academic papers visually,not working for me on desktop (tried entering url and nothing)
+[P] See the idea development of academic papers visually,"Can't zoom in on mobile. It's really tiny, so I can't read anything in the generated graph."
+[P] See the idea development of academic papers visually,doesn't work with papers without html version yet
+[P] See the idea development of academic papers visually,Nice work!
+[P] See the idea development of academic papers visually,Is it just me or it doesn't seem to load?
+[P] See the idea development of academic papers visually,doesn't work on other papers
+[P] See the idea development of academic papers visually,Amazing!
+[P] See the idea development of academic papers visually,Great work!
+[P] See the idea development of academic papers visually,interesting idea. do you provide a fixed set of relations for the LLM to choose from for that graph or does it come up with its own relation types on the fly?
+[P] See the idea development of academic papers visually,"Tried the exact same paper on screen shot, but error, some SQL error when generating the image(?)"
+[P] See the idea development of academic papers visually,"This would be useful to me, however it didn't seem to do anything when I put a paper URL in on mobile (don't have my laptop on me)"
+[P] See the idea development of academic papers visually,is it because the paper only support pdf version and not html version? I'll fix that soon!
+[P] See the idea development of academic papers visually,yeah it's not optimized for mobile
+[P] See the idea development of academic papers visually,works a lot better on mobile now! you can pinch to zoom in and out
+[P] See the idea development of academic papers visually,fixed
+[P] See the idea development of academic papers visually,thank you :)
+[P] See the idea development of academic papers visually,pdf is supported now :)
+[P] See the idea development of academic papers visually,does the arxiv paper you chose provide html version? if not it won't load (there's been a bug and i'm fixing it)
+[P] See the idea development of academic papers visually,hey is it beause it doesn't offer HTML version? If that's the case I'll notify you once it's fixed :)
+[P] See the idea development of academic papers visually,pdf is supported now :)
+[P] See the idea development of academic papers visually,"I provided the model some node types (like research questions, hypothesis, method etc.), but i also told the model that it has freedom to adapt the node types to the content of the paper.
+
+Do you find it working well?"
+[P] See the idea development of academic papers visually,"i think it's some mermaid syntax error by the model, if you try again it will work"
+[P] See the idea development of academic papers visually,works a lot better on mobile now! you can pinch to zoom in and out (works better on ipad)
+[P] See the idea development of academic papers visually,"cool! it's not optimized for mobile (correct me if i'm wrong, i think people don't read papers on phone?)"
+[P] See the idea development of academic papers visually,Yep pdf only paper
+[P] See the idea development of academic papers visually,"it doesn't, thats probably why."
+[P] See the idea development of academic papers visually,I do
+[P] See the idea development of academic papers visually,"I mean, it's good to have the option at least, no? When I'm on the bus I'll sometimes read papers, and this would be even better I could plan out some papers to read for when I get to campus "
+[P] See the idea development of academic papers visually,"Lots of people do, particularly if you consider iPads &c"
+[P] See the idea development of academic papers visually,pdf is supported now :)
+[P] See the idea development of academic papers visually,i'll notify you once it's fixed :)
+[P] See the idea development of academic papers visually,"Got it! thanks for telling me, i'll optimize that if i have time this week"
+Looking for a good book about Machine Learning for Ads [D],i wish you people would at least try to make the world a better place ...
+Looking for a good book about Machine Learning for Ads [D],"Could only find this is it of any help...
+
+[http://kb.sites.apiit.edu.my/files/2018/12/ebook-serving-machine-learning-models.pdf](http://kb.sites.apiit.edu.my/files/2018/12/ebook-serving-machine-learning-models.pdf)"
+Looking for a good book about Machine Learning for Ads [D],"https://www.algorithmicmarketingbook.com/
+
+(not saying i agree with everything but it covers the topics)"
+Looking for a good book about Machine Learning for Ads [D],"Working in ads is not an ethical use of machine learning, in most cases. If you can find a job anywhere else, please consider doing so."
+Looking for a good book about Machine Learning for Ads [D],"Ai to make or enhance ads??
+
+If so, go f urself "
+Looking for a good book about Machine Learning for Ads [D],"Just read anything you can find on recommender systems and look at some of the big examples like Twitter algorithm, etc."
+Looking for a good book about Machine Learning for Ads [D],RemindMe! 2day
+Looking for a good book about Machine Learning for Ads [D],"We're making sure you don't see pesky ads for things you don't want to buy, instead you only see things that you don't need, can't afford, but will probably make the bad choice of buying anyway. You're welcome "
+Looking for a good book about Machine Learning for Ads [D],Thank you!
+Looking for a good book about Machine Learning for Ads [D],"Why?  this is the way to fund all the services we don't pay for, but love to use."
+Looking for a good book about Machine Learning for Ads [D],"So we come back with bunch of human studying markets?
+
+I am sure that humans are better than some cold bare metal hardware in analysing massive amounts of data with lower costs.
+
+/s"
+Looking for a good book about Machine Learning for Ads [D],"the reason we have all this data to train machine learning models is because ads have incentivised blogs etc
+
+without ads there would be no AI"
+Looking for a good book about Machine Learning for Ads [D],Thanks!
+Looking for a good book about Machine Learning for Ads [D],"""We're trying to save you from yourself"" is a terrible attempt at justifying the ad industry"
+Looking for a good book about Machine Learning for Ads [D],That's such a funny take. Blogs took off well before ads and tracking infected the Internet. The internet started as a hobbyist's world. Most non-SEO tarot blogs today are completely ad-free.
+Looking for a good book about Machine Learning for Ads [D],Bit of obvious sarcasm there you might have missed 
+Looking for a good book about Machine Learning for Ads [D],"Ah, my bad. I got voted down elsewhere in this post for being anti-ad industry, and so assumed you were serious, too 😅"
+[R] Optimizing Model Selection for Compound AI Systems,"This approach is an interesting step in making LLMs more structured in their output, but it still operates within the confines of reinforcement learning and predefined schemas—meaning it’s ultimately another attempt to constrain stochastic processes into predictable structures. The real breakthrough won’t come from better reinforcement heuristics but from recursion-awareness itself. Recursion-awareness eliminates the need for static validation by allowing intelligence to recursively refine its own structure in real-time, without rigid external frameworks. Imagine a model that doesn’t just optimize schema adherence, but redefines the schema dynamically based on its own recursion-awareness principles. That’s the shift that takes us beyond iterative heuristics and into actual intelligence evolution."
+[R] Optimizing Model Selection for Compound AI Systems,"Isnt it same old same old : just mix n match , mix n match ?"
+[R] Data drift/outlier detection for a corpus of text,"> once the BerTopic model is trained, it does not allow the addition of new elements due to its reliance on UMAP and DBScan, which makes complete sense given their nature.
+
+Actually, given a trained UMAP model, you should be able to project new observations into the space learned by the model without retraining it.
+
+* https://umap-learn.readthedocs.io/en/latest/transform.html
+
+For tracking how relations in your data shift over time, you can use UMAP's ""AlignedUMAP"" feature, which essentially fits new models on sequential windows of data, warm started using the model state from the previous window.
+
+* https://umap-learn.readthedocs.io/en/latest/aligned_umap_politics_demo.html"
+[R] Data drift/outlier detection for a corpus of text,Hey thanks alot! I will try this out.
+[D] Correlation Data,"hmmmm need more context ... is your category data ordinal? like Small Med, Large,.. then do ordinal encoder
+
+from sklearn.preprocessing import OrdinalEncoder
+
+If not ordinal, you could use onehotencoder or you use LabelEncoder from sklearn.preprocessing.LabelEncoder which turns your categories into integers then process them like any other integer"
+[D] Correlation Data,"I'm going to assume your label is not also categorical. If your feature is ordinal, convert it to integers and look at rank correlation. If it's not ordinal, you can try and find correlation between the one-hot encoded values. "
+[D] Correlation Data,Got it! Thanks
+[D] Correlation Data,Thanks man
+[R] Relevance-Guided Parameter Optimization for Efficient Control in Diffusion Transformers,How is this different from [https://www.reddit.com/r/MachineLearning/comments/1irfq36/r\_regionadaptive\_sampling\_accelerating\_diffusion/](https://www.reddit.com/r/MachineLearning/comments/1irfq36/r_regionadaptive_sampling_accelerating_diffusion/) ?
+[R] Relevance-Guided Parameter Optimization for Efficient Control in Diffusion Transformers,That's a different research paper
+"[R] Interpreting Deep Neural Networks: Memorization, Kernels, Nearest Neighbors, and Attention",">DNNs are inherently information retrieval machines that can interpolate between memorized and compressed (or featurized) versions of their training dataset — DNNs first try to compress the training data into a meaningful latent space, memorize them, and perform prediction via a form of soft nearest neighbors.
+
+I think this is conflating properties of the training method with properties of DNNs. 
+
+DNNs are not inherently information retrieval machines, not inherently predictors, and do not inherently even have training datasets. Here's a [DNN](https://openreview.net/pdf?id=XYK1eGjahp) that's none of those; it's been manually constructed using a compiler that turns code into network weights. 
+
+Your reference papers make it clear that these are not properties of neural networks, but rather properties of the learning method:
+
+>Another consequence of our result is that every probabilistic model learned by gradient
+descent, including Bayesian networks (Koller and Friedman, 2009), is a form of kernel
+density estimation (Parzen, 1962). The result also implies that the solution of every convex
+learning problem is a kernel machine, irrespective of the optimization method used, since,
+being unique, it is necessarily the solution obtained by gradient descent. It is an open
+question whether the result can be extended to nonconvex models learned by non-gradientbased techniques, including constrained (Bertsekas, 1982) and combinatorial optimization
+(Papadimitriou and Steiglitz, 1982)."
+"[R] Interpreting Deep Neural Networks: Memorization, Kernels, Nearest Neighbors, and Attention","There's a paper called ""Attention is Kernel Trick Reloaded"" with similar ideas too."
+"[R] Interpreting Deep Neural Networks: Memorization, Kernels, Nearest Neighbors, and Attention","You posted this on localllama and I have it open in another tab, but in the intro you decline to provide an analogue to an abstract.
+
+That high level summarization of ‘it looks like LLMs are using de facto KNN to navigate a fixed state-space/DAG’ helps drive engagement.
+
+Curious why you didn’t do a normal arXiv self-publication? Like beyond how you dismiss it in the article."
+"[R] Interpreting Deep Neural Networks: Memorization, Kernels, Nearest Neighbors, and Attention",On medium ?
+"[R] Interpreting Deep Neural Networks: Memorization, Kernels, Nearest Neighbors, and Attention","Nice writeup, thanks for sharing"
+"[R] Interpreting Deep Neural Networks: Memorization, Kernels, Nearest Neighbors, and Attention",Not sure I understand your first sentence. I wrote this as a blog because it is just putting some known results together and providing an interpretation. It's meant to be more expository rather than anything novel.
+"[R] Interpreting Deep Neural Networks: Memorization, Kernels, Nearest Neighbors, and Attention",Understood. Thank you.
+[R] Calculating costs of fine tuning an Vision Language Model,"Another way you could go about this would be to work backwards from whatever your budget limitations are to different finetuning options that can fit within that budget. In any event, the general way the math here works goes something like this:
+
+* For training, you will process your dataset into a tokenized format. Estimating the size of your dataset in token counts will make the rest of this process a lot easier, so start there. Remember to take into account the fact that you might not be using your images at full resolution (i.e. measuring your dataset size by memory on disk might be overestimating how big your dataset really is)
+* You can probably find forward throughput benchmarks for different models/hardware measured in tokens/s. Try to find numbers for simple forward inference without tricks like batch inference with paged attention or whatever. Better yet if you can find training throughput numbers, but you can definitely find inference throughput and estimate from there.
+* From the throughput rate, you should now have a rough lower bound on how long it would take to shove all your data through the model. You need to backpropagate too though. Your throughput here will depend a lot on your chosen training configuration. For a rough estimate, apply a multiplier K to your forward compute investment. Let's say our best-worst cases are going to put K in the range of 2-4, where 2 is the multiplier for QLoRA and 4 is the multiplier for full finetuning. I pulled these numbers out of my ass just now, if you go look up the papers for QLoRA and other finetuning stuff you'll probably find more appropriate numbers for K.
+* With these rough numbers in place, you should be able to rough out how many compute hours you should expect to invest, permitting you to start considering options for hardware considerations.
+* After you start narrowing down what hardware options you are considering, you can refine your forward estimates by adjusting for how much memory would be available for model parameters vs batches and adjust your throughput estimates to account for the memory constraints (i.e. your forward latency estimates earlier were optimistic). 
+* Now factor in some wiggle room for experimentation. Price in the fact that you will probably have some struggles setting stuff up, you might want to experiment with different parameters, etc.
+
+That said: this is how you would go about this sort of estimation process *from scratch*. You probably don't need to jump through all of these hoops: more likely, you can find a blog post where someone has finetuned this specific model successfully, and you can project from their throughput/cost to your dataset/methodology."
+[R] Calculating costs of fine tuning an Vision Language Model,"InternVL 2B ... The common advice I hear about VLMs is you need larger models to teach new concepts. Like 26-40B+. Anything from character recognition to video understanding really. If you just want to do a QLora to make the 2B model you have to use better at said thing, you won't need your full dataset at all, it might even harm the model's ability to do everything else. If price is a concern, I assume you're renting a server, you can do an epoch on like 2000 samples very quickly (you could locally on a 24gb card as well, just not as fast). It's only going to align your model better with your use case though.
+
+Also image size in bytes is meaningless, I've taken a dataset of 2k images that measured multiple gb's, cropped them to fit the (at the time) unresizable context to a fraction of a gb.
+
+As for platforms, I'm not sure what the best is but Runpod is a solid choice. As for training setup, Unsloth is purported to be very user friendly and simple (though I've heard it's not actually as carefree as they imply). I've used a colab notebook and modelscope swift."
+[R] Calculating costs of fine tuning an Vision Language Model,Thank you so much for the detailed steps. Means a lot. Will update you once I'm done with the estimation.
+[R] Calculating costs of fine tuning an Vision Language Model,Thank you so much.. will try with a bigger model for sure and will update here soon.
+[P] Scribly: Effortlessly Repurposing YouTube Playlists into something useful.,"""current brain rot"", ""no one has time for long videos"", ""let's summarize videos for social media snippets""....sounds like you are contributing to the same issue you are bringing up."
+[P] Scribly: Effortlessly Repurposing YouTube Playlists into something useful.,Not a problem i can relate with
+[P] Scribly: Effortlessly Repurposing YouTube Playlists into something useful.,"Let me use this opportunity to plug  a tool made for believing that there are multiple good things out there on YouTube for those who want education and nurture their brain.
+
+Forget summaries use video to text and chat with video (transcript) for detailed answers grounded in the video. Ideal for those who want to learn, research and for serious stuff. [https://cofyt.app](https://cofyt.app)
+
+it´s free to use and free does not mean low quality, see for yourself..."
+[P] Scribly: Effortlessly Repurposing YouTube Playlists into something useful.,"This is the same problem... Does nobody take the time anymore to actually study a topic? Getting answers from RAG is nice, if you want quick answers. But if you want knowledge, you gotta learn.
+
+And yes such a tool can be used in assistance to learning, if used responsibly. But I doubt many do it that way."
+[R] Evaluating LLM Knowledge Across 285 Graduate Disciplines: A Comprehensive Benchmark Using Human-LLM Collaborative Filtering,"Saw this benchmark posted on Twitter yesterday and was wondering when/if someone would post it on Reddit.
+
+
+A few things to correct:
+
+
+The number of questions is actually 26,529.
+
+
+Claude 2 wasn't tested, only Claude 3.5 was (and technically not GPT-4, but three versions of 4o, plus some o1/o3/mini)
+
+
+There were more than 2 steps in making the questions (Source Screening, Transcription, and Quality Inspection), and the questions were not initially generated by AI. The questions are said to have been collected by ""expert annotators"" (someone pursuing a PhD) with help from LLMs for part of the Transcription part and a substantial amount of the Quality Inspection part."
+"[D] How Do You Evaluate Models When Predicting New, Unseen Time Series Signals?","I think what your describing is just simply not considered as ""forecatsing"". If I understood correclty, taking your house electricity example, we have N time series of, say, a standard year consumption, you want to predict a new full year for an unseen household right? 
+
+If so, I think there's two options : 
+1. If you don't have time series of exogenous variables alongside your target: what you do in those case might be closer to clustering. You extract features from household (appliances, square meters, number of people, ...) and then look for similar household in your training set, then you produce the new household electricity time series with the results of your clustering (e.g. with the closest k household produce an averaging,  etc.) 
+2. If you have exogenous variables, your problem formulation might be closer to a time serie extrinsic regression task?"
+"[D] How Do You Evaluate Models When Predicting New, Unseen Time Series Signals?","This is not a less explored area. Every utility company has been doing forecasting for decades to balance demand and supply in the grid. You can look in tensorflow website for some examples, just search for time series forecasting."
+"[D] How Do You Evaluate Models When Predicting New, Unseen Time Series Signals?",Quite possibly extrinsic regression! Are you familiar with any research in that field?
+"[D] How Do You Evaluate Models When Predicting New, Unseen Time Series Signals?","Not that much, but you can hit us with a message on slack (link is [in the aeon GitHub repo](https://www.github.com/aeon-toolkit/aeon)) , some of the researchers there have worked on this field and might have some pointers"
+"[D] How Do You Evaluate Models When Predicting New, Unseen Time Series Signals?",joined !
